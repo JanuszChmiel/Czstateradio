@@ -1,9 +1,9 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="cs">
 <head>
   <meta http-equiv="Content-type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Czech state radios</title>
+  <title>Stanice Českého rozhlasu</title>
 </head>
 <body>
   <script>
@@ -4814,7 +4814,7 @@ rtl.module("program",["System","BrowserApp","JS","Classes","SysUtils","Web","web
       wp.SetParent(pas.htmlwidgets.TViewPort.$create("Create$1",[null]));
       tex = pas.htmlwidgets.TTextWidget.$create("Create$1",[this]);
       tex.SetParent(wp);
-      tex.SetText("Zvolte si prosím požadovanou rozhlasovou stanici kliknutím na její tlačítko s názvem.");
+      tex.SetText(" Zvolte si prosím rozhlasovou stanici kliknutím na příslušné tlačítko s názvem stanice.");
       tex.Refresh();
       stop = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
       stop.SetParent(wp);
@@ -4824,32 +4824,32 @@ rtl.module("program",["System","BrowserApp","JS","Classes","SysUtils","Web","web
       but = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
       but.SetParent(wp);
       but.SetHTMLEvent(11,rtl.createCallback(this,"butInput"));
-      but.SetText("80s Hits - Open FM");
+      but.SetText("Radiožurnál");
       but.Refresh();
       but2 = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
       but2.SetParent(wp);
       but2.SetHTMLEvent(11,rtl.createCallback(this,"but2Input"));
-      but2.SetText("#1 HITS 80s");
+      but2.SetText("Dvojka");
       but2.Refresh();
       but3 = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
       but3.SetParent(wp);
       but3.SetHTMLEvent(11,rtl.createCallback(this,"but3Input"));
-      but3.SetText("Free FM 80 Tokyo");
+      but3.SetText("Vltava");
       but3.Refresh();
       but4 = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
       but4.SetParent(wp);
       but4.SetHTMLEvent(11,rtl.createCallback(this,"but4Input"));
-      but4.SetText("Junior");
+      but4.SetText("Plus");
       but4.Refresh();
       but5 = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
       but5.SetParent(wp);
       but5.SetHTMLEvent(11,rtl.createCallback(this,"but5Input"));
-      but5.SetText("Olomouc");
+      but5.SetText("Radiožurnál Sport");
       but5.Refresh();
       but6 = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
       but6.SetParent(wp);
       but6.SetHTMLEvent(11,rtl.createCallback(this,"but6Input"));
-      but6.SetText("�RO Ostrava");
+      but6.SetText("D-dur");
       but6.Refresh();
       this.curr_track = document.createElement("audio");
       wp.Refresh();
@@ -4858,37 +4858,37 @@ rtl.module("program",["System","BrowserApp","JS","Classes","SysUtils","Web","web
       this.curr_track.pause();
     };
     this.butInput = function (_Sender, _Event) {
-      this.curr_track.src = "https://stream.open.fm/3";
+      this.curr_track.src = "http://rozhlas.stream/radiozurnal_mp3_128.mp3";
       this.curr_track.load();
       this.curr_track.pause();
       this.curr_track.play();
     };
     this.but2Input = function (_Sender, _Event) {
-      this.curr_track.src = "https://makri.cdnstream.com/1898_128";
+      this.curr_track.src = "http://rozhlas.stream/dvojka_mp3_128.mp3";
       this.curr_track.load();
       this.curr_track.pause();
       this.curr_track.play();
     };
     this.but3Input = function (_Sender, _Event) {
-      this.curr_track.src = "http://stream.open.fm/27";
+      this.curr_track.src = "http://rozhlas.stream/vltava_mp3_128.mp3";
       this.curr_track.load();
       this.curr_track.pause();
       this.curr_track.play();
     };
     this.but4Input = function (_Sender, _Event) {
-      this.curr_track.src = "http://rozhlas.stream/juniormaxi_mp3_128.mp3";
+      this.curr_track.src = "http://rozhlas.stream/plus_mp3_128.mp3";
       this.curr_track.load();
       this.curr_track.pause();
       this.curr_track.play();
     };
     this.but5Input = function (_Sender, _Event) {
-      this.curr_track.src = "http://rozhlas.stream/olomouc_mp3_128.mp3";
+      this.curr_track.src = "http://rozhlas.stream/sport_mp3_128.mp3";
       this.curr_track.load();
       this.curr_track.pause();
       this.curr_track.play();
     };
     this.but6Input = function (_Sender, _Event) {
-      this.curr_track.src = "http://rozhlas.stream/ov_mp3_128.mp3";
+      this.curr_track.src = "http://rozhlas.stream/ddur_mp3_128.mp3";
       this.curr_track.load();
       this.curr_track.pause();
       this.curr_track.play();
