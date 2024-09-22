@@ -4810,11 +4810,30 @@ rtl.module("program",["System","BrowserApp","JS","Classes","SysUtils","Web","web
       var but4 = null;
       var but5 = null;
       var but6 = null;
+      var but7 = null;
+      var but8 = null;
+      var but9 = null;
+      var but10 = null;
+      var but11 = null;
+      var but12 = null;
+      var but13 = null;
+      var but14 = null;
+      var but15 = null;
+      var but16 = null;
+      var but17 = null;
+      var but18 = null;
+      var but19 = null;
+      var but20 = null;
+      var but21 = null;
+      var but22 = null;
+      var but23 = null;
+      var but24 = null;
+      var but25 = null;
       wp = pas.htmlwidgets.TWebPage.$create("Create$1",[this]);
       wp.SetParent(pas.htmlwidgets.TViewPort.$create("Create$1",[null]));
       tex = pas.htmlwidgets.TTextWidget.$create("Create$1",[this]);
       tex.SetParent(wp);
-      tex.SetText(" Zvolte si prosím rozhlasovou stanici kliknutím na příslušné tlačítko s názvem stanice.");
+      tex.SetText(" Zvolte si prosím rozhlasovou stanici kliknutím na příslušné tlačítko s jejim názvem.");
       tex.Refresh();
       stop = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
       stop.SetParent(wp);
@@ -4844,13 +4863,108 @@ rtl.module("program",["System","BrowserApp","JS","Classes","SysUtils","Web","web
       but5 = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
       but5.SetParent(wp);
       but5.SetHTMLEvent(11,rtl.createCallback(this,"but5Input"));
-      but5.SetText("Radiožurnál Sport");
+      but5.SetText("D dur");
       but5.Refresh();
       but6 = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
       but6.SetParent(wp);
       but6.SetHTMLEvent(11,rtl.createCallback(this,"but6Input"));
-      but6.SetText("D-dur");
+      but6.SetText("Jazz");
       but6.Refresh();
+      but7 = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
+      but7.SetParent(wp);
+      but7.SetHTMLEvent(11,rtl.createCallback(this,"but7Input"));
+      but7.SetText("Radio Wave");
+      but7.Refresh();
+      but8 = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
+      but8.SetParent(wp);
+      but8.SetHTMLEvent(11,rtl.createCallback(this,"but8Input"));
+      but8.SetText("Junior");
+      but8.Refresh();
+      but9 = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
+      but9.SetParent(wp);
+      but9.SetHTMLEvent(11,rtl.createCallback(this,"but9Input"));
+      but9.SetText("Rádio Pohoda");
+      but9.Refresh();
+      but10 = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
+      but10.SetParent(wp);
+      but10.SetHTMLEvent(11,rtl.createCallback(this,"but10Input"));
+      but10.SetText("Rádio Praha");
+      but10.Refresh();
+      but11 = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
+      but11.SetParent(wp);
+      but11.SetHTMLEvent(11,rtl.createCallback(this,"but11Input"));
+      but11.SetText("Brno");
+      but11.Refresh();
+      but12 = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
+      but12.SetParent(wp);
+      but12.SetHTMLEvent(11,rtl.createCallback(this,"but12Input"));
+      but12.SetText("České Budějovice");
+      but12.Refresh();
+      but13 = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
+      but13.SetParent(wp);
+      but13.SetHTMLEvent(11,rtl.createCallback(this,"but13Input"));
+      but13.SetText("Hradec Králové");
+      but13.Refresh();
+      but14 = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
+      but14.SetParent(wp);
+      but14.SetHTMLEvent(11,rtl.createCallback(this,"but14Input"));
+      but14.SetText("Karlovy Vary");
+      but14.Refresh();
+      but15 = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
+      but15.SetParent(wp);
+      but15.SetHTMLEvent(11,rtl.createCallback(this,"but15Input"));
+      but15.SetText("Liberec");
+      but15.Refresh();
+      but16 = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
+      but16.SetParent(wp);
+      but16.SetHTMLEvent(11,rtl.createCallback(this,"but16Input"));
+      but16.SetText("Olomouc");
+      but16.Refresh();
+      but17 = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
+      but17.SetParent(wp);
+      but17.SetHTMLEvent(11,rtl.createCallback(this,"but17Input"));
+      but17.SetText("Ostrava");
+      but17.Refresh();
+      but18 = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
+      but18.SetParent(wp);
+      but18.SetHTMLEvent(11,rtl.createCallback(this,"but18Input"));
+      but18.SetText("Pardubice");
+      but18.Refresh();
+      but19 = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
+      but19.SetParent(wp);
+      but19.SetHTMLEvent(11,rtl.createCallback(this,"but19Input"));
+      but19.SetText("Plzeň");
+      but19.Refresh();
+      but20 = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
+      but20.SetParent(wp);
+      but20.SetHTMLEvent(11,rtl.createCallback(this,"but20Input"));
+      but20.SetText("Regina DAB Praha");
+      but20.Refresh();
+      but21 = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
+      but21.SetParent(wp);
+      but21.SetHTMLEvent(11,rtl.createCallback(this,"but21Input"));
+      but21.SetText("Region - Praha a střední Čechy");
+      but21.Refresh();
+      but22 = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
+      but22.SetParent(wp);
+      but22.SetHTMLEvent(11,rtl.createCallback(this,"but22Input"));
+      but22.SetText("Sever");
+      but22.Refresh();
+      but23 = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
+      but23.SetParent(wp);
+      but23.SetHTMLEvent(11,rtl.createCallback(this,"but23Input"));
+      but23.SetText("Vysočina");
+      but23.Refresh();
+      but24 = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
+      but24.SetParent(wp);
+      but24.SetHTMLEvent(11,rtl.createCallback(this,"but24Input"));
+      but24.SetText("Zlín\t");
+      but24.Refresh();
+      but25 = pas.htmlwidgets.TButtonWidget.$create("Create$1",[this]);
+      but25.SetParent(wp);
+      but25.SetHTMLEvent(11,rtl.createCallback(this,"but25Input"));
+      but25.SetText("Radiožurnál Sport");
+      but25.Refresh();
       this.curr_track = document.createElement("audio");
       wp.Refresh();
     };
@@ -4858,37 +4972,82 @@ rtl.module("program",["System","BrowserApp","JS","Classes","SysUtils","Web","web
       this.curr_track.pause();
     };
     this.butInput = function (_Sender, _Event) {
-      this.curr_track.src = "http://rozhlas.stream/radiozurnal_mp3_128.mp3";
-      this.curr_track.load();
-      this.curr_track.pause();
-      this.curr_track.play();
+      this.playurl("http://rozhlas.stream/radiozurnal_mp3_128.mp3");
     };
     this.but2Input = function (_Sender, _Event) {
-      this.curr_track.src = "http://rozhlas.stream/dvojka_mp3_128.mp3";
-      this.curr_track.load();
-      this.curr_track.pause();
-      this.curr_track.play();
+      this.playurl("http://rozhlas.stream/dvojka_mp3_128.mp3");
     };
     this.but3Input = function (_Sender, _Event) {
-      this.curr_track.src = "http://rozhlas.stream/vltava_mp3_128.mp3";
-      this.curr_track.load();
-      this.curr_track.pause();
-      this.curr_track.play();
+      this.playurl("http://rozhlas.stream/vltava_mp3_128.mp3");
     };
     this.but4Input = function (_Sender, _Event) {
-      this.curr_track.src = "http://rozhlas.stream/plus_mp3_128.mp3";
-      this.curr_track.load();
-      this.curr_track.pause();
-      this.curr_track.play();
+      this.playurl("http://rozhlas.stream/plus_mp3_128.mp3");
     };
     this.but5Input = function (_Sender, _Event) {
-      this.curr_track.src = "http://rozhlas.stream/sport_mp3_128.mp3";
-      this.curr_track.load();
-      this.curr_track.pause();
-      this.curr_track.play();
+      this.playurl("http://rozhlas.stream/ddur_mp3_128.mp3");
     };
     this.but6Input = function (_Sender, _Event) {
-      this.curr_track.src = "http://rozhlas.stream/ddur_mp3_128.mp3";
+      this.playurl("http://rozhlas.stream/jazz_mp3_128.mp3");
+    };
+    this.but7Input = function (_Sender, _Event) {
+      this.playurl("http://rozhlas.stream/wave_mp3_128.mp3");
+    };
+    this.but8Input = function (_Sender, _Event) {
+      this.playurl("http://rozhlas.stream/juniormaxi_mp3_128.mp3");
+    };
+    this.but9Input = function (_Sender, _Event) {
+      this.playurl("http://rozhlas.stream/pohoda_mp3_128.mp3");
+    };
+    this.but10Input = function (_Sender, _Event) {
+      this.playurl("http://rozhlas.stream/cro7_mp3_128.mp3");
+    };
+    this.but11Input = function (_Sender, _Event) {
+      this.playurl("http://rozhlas.stream/brno_mp3_128.mp3");
+    };
+    this.but12Input = function (_Sender, _Event) {
+      this.playurl("http://rozhlas.stream/cb_mp3_128.mp3");
+    };
+    this.but13Input = function (_Sender, _Event) {
+      this.playurl("http://rozhlas.stream/hk_mp3_128.mp3");
+    };
+    this.but14Input = function (_Sender, _Event) {
+      this.playurl("http://rozhlas.stream/kv_mp3_128.mp3");
+    };
+    this.but15Input = function (_Sender, _Event) {
+      this.playurl("http://rozhlas.stream/liberec_mp3_128.mp3");
+    };
+    this.but16Input = function (_Sender, _Event) {
+      this.playurl("http://rozhlas.stream/olomouc_mp3_128.mp3");
+    };
+    this.but17Input = function (_Sender, _Event) {
+      this.playurl("http://rozhlas.stream/ov_mp3_128.mp3");
+    };
+    this.but18Input = function (_Sender, _Event) {
+      this.playurl("http://rozhlas.stream/pardubice_mp3_128.mp3");
+    };
+    this.but19Input = function (_Sender, _Event) {
+      this.playurl("http://rozhlas.stream/plzen_mp3_128.mp3");
+    };
+    this.but20Input = function (_Sender, _Event) {
+      this.playurl("http://rozhlas.stream/regina_mp3_128.mp3");
+    };
+    this.but21Input = function (_Sender, _Event) {
+      this.playurl("http://rozhlas.stream/region_mp3_128.mp3");
+    };
+    this.but22Input = function (_Sender, _Event) {
+      this.playurl("http://rozhlas.stream/sever_mp3_128.mp3");
+    };
+    this.but23Input = function (_Sender, _Event) {
+      this.playurl("http://rozhlas.stream/vysocina_mp3_128.mp3");
+    };
+    this.but24Input = function (_Sender, _Event) {
+      this.playurl("http://rozhlas.stream/zlin_mp3_128.mp3");
+    };
+    this.but25Input = function (_Sender, _Event) {
+      this.playurl("http://rozhlas.stream/sport_mp3_128.mp3");
+    };
+    this.playurl = function (url) {
+      this.curr_track.src = url;
       this.curr_track.load();
       this.curr_track.pause();
       this.curr_track.play();
